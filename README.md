@@ -12,19 +12,19 @@ Adaptations can be found in my collection of [lab repos](https://github.com/star
 
 ### Source Module
 
-`lightninglab.core` should contain code for the Lightning Module and Trainer.
+`quantumlab.core` should contain code for the Lightning Module and Trainer.
 
-`lightninglab.components` should contain experiment utilities grouped by purpose for cohesion.
+`quantumlab.components` should contain experiment utilities grouped by purpose for cohesion.
 
-`lightninglab.pipeline` should contain code for data acquistion and preprocessing, and building a TorchDataset and LightningDataModule.
+`quantumlab.pipeline` should contain code for data acquistion and preprocessing, and building a TorchDataset and LightningDataModule.
 
-`lightninglab.api` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
+`quantumlab.api` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
 
-`lightninglab.lab` should contain code for the command line interface built with [Typer](https://typer.tiangolo.com/) and [Rich](https://rich.readthedocs.io/en/stable/).
+`quantumlab.lab` should contain code for the command line interface built with [Typer](https://typer.tiangolo.com/) and [Rich](https://rich.readthedocs.io/en/stable/).
 
-`lightninglab.pages` should contain code for data apps built with streamlit.
+`quantumlab.pages` should contain code for data apps built with streamlit.
 
-`lightninglab.conf` can assist with project, trainer, and sweep configurations.
+`quantumlab.config` can assist with project, trainer, and sweep configurations.
 
 ### Project Root
 
